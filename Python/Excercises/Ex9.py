@@ -28,7 +28,7 @@ while True:
         break
     elif(int(g) == target):
         print("You got it!")
-        Cont = input("Play Again? ").lower
+        Cont = input("Play Again? ").lower()
         if(Cont == 'no' or Cont == 'exit'):
             break
         target = rd.randint(1,9)
