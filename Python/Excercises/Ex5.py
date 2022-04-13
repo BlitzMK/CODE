@@ -7,7 +7,7 @@ import random as rd
 # rd.sample(range 1 - 100, 10 elements in list )
 
 A = rd.sample(range(1,100), 20)
-B = rd.sample(range(1,100), 10)
+B = rd.sample(range(1,100), 15)
 result = []
 
 for a in A:
